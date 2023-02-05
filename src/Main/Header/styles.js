@@ -17,6 +17,7 @@ const styles = StyleSheet.create({
     locality: {
         fontSize: 17,
         color: 'white',
+        marginTop: 5,
     },
     buttomReload: {
         flexDirection: 'row',

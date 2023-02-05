@@ -3,9 +3,9 @@ import { StyleSheet } from "react-native";
 const styles = StyleSheet.create({
     addInfo: {
         marginTop: 30,
-        width: 330,
+        width: 350,
         borderRadius: 10,
-        height: 230,
+        height: 200,
         backgroundColor: '#CCC',
         alignSelf: 'center',
     },
@@ -16,14 +16,15 @@ const styles = StyleSheet.create({
         marginVertical: 16,
     },
     tabInfo: {
-        flexDirection: 'row',
-        flexWrap: 'wrap',
-        justifyContent: 'space-between',
         marginHorizontal: 50,
+        alignItems: 'center',
     },
     textInfo: {
         fontSize: 18,
         fontWeight: 'bold',
+    },
+    props: {
+        fontWeight: 'normal',
     },
 })
 
